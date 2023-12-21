@@ -9,12 +9,11 @@ title: Home
   .profile-container {
     display: flex;
     align-items: center; /* Vertically center the items */
-    justify-content: center; /* 水平居中 */
   }
   .profile-photo {
       width: 150px;
       height: 150px;
-      border-radius: 100%;
+      border-radius: 50%;
       overflow: hidden;
       margin: 20px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -22,8 +21,7 @@ title: Home
 
   .profile-photo img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
   }
 
   .profile-text {
@@ -48,9 +46,7 @@ title: Home
     <!-- 插入个人照片 -->
     <div class="profile-photo">
       <img src="./image/WechatIMG223.jpg" alt="Your Photo" style="width: 100%; height: auto;">
-    </div>
-
-    <div class="profile-text">
+    </div class="profile-text">
       <p>
         Hello! I'm a third-year graduate student in the Information and Communication
         Engineering Department at the University of Science and Technology of China, Hefei, China. I received the B.S. degree in electronic
